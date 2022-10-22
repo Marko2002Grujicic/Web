@@ -1,0 +1,41 @@
+
+.one{
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.two{
+    text-transform: lowercase;
+    text-decoration: line-through;
+    line-height: 200%;
+    text-align: right;
+}
+
+.three{
+text-align: center;
+}
+
+ul{
+    color:chocolate;
+}
+
+li{
+    text-shadow: 2px 2px 2px;
+}
+
+a:link{
+    color:red
+}
+
+a:visited{
+    color:black
+}
+
+a:hover{
+    color:green;
+}
+a:focus{
+    color:blue;
+}

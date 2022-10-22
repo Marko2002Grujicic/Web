@@ -1,0 +1,15 @@
+* {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #first-div {
+    background-color: blueviolet;
+  }
+  .first-p-in-div {
+    font-family: "Times New Roman", Times, serif;
+    background-color: aqua;
+    font-size: 40px;
+  }
+  h1 {
+    background-color: aquamarine;
+  }

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create New Wanted Poster</title>
+    <style>
+      body {
+        max-width: 80%;
+        padding: 0 20%;
+      }
+      textarea {
+        width: 98%;
+      }
+
+      button img {
+        width: 15px;
+        display: inline;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="../index.html"><u>Back to Homepage</u></a>
+    <br />
+    <br />
+    <form action="post" action="../posters/bart.html">
+      <section class="top-headline">
+        <fieldset>
+          <legend>Top Headline</legend>
+          <label for="headline-text">Headline text:</label>
+          <input type="text" id="headline-text" />
+        </fieldset>
+      </section>
+      <br />
+      <section class="images">
+        <fieldset>
+          <legend>Images</legend>
+          <label for="image1">Image 1: </label><input id="image1" type="file" />
+          <br />
+          <label for="image2">Image 2: </label><input id="image2" type="file" />
+          <br />
+          <label for="image3">Image 3: </label><input id="image3" type="file" />
+        </fieldset>
+      </section>
+      <br />
+      <section class="reward-money">
+        <fieldset>
+          <legend>Reward</legend>
+          <label for="reward-money">Reward money: </label
+          ><input type="text" id="reward-money" />
+        </fieldset>
+      </section>
+      <br />
+      <section class="reward">
+        <fieldset>
+          <legend>Reward</legend>
+          <label for="aliases">Aliases: </label>
+          <br />
+          <input type="text" id="aliases" />
+          <br />
+          <br />
+          <label for="birth">Birth: </label>
+          <br />
+          <input type="text" id="birth" />
+          <br />
+          <br />
+          <label for="hair">Hair: </label>
+          <br />
+          <input type="text" id="hair" />
+          <br />
+          <br />
+          <label for="eyes">Eyes: </label>
+          <br />
+          <input type="text" id="eyes" />
+          <br />
+          <br />
+          <label for="height">Height: </label>
+          <br />
+          <input type="text" id="height" />
+          <br />
+          <br />
+          <label for="weight">Weight: </label>
+          <br />
+          <input type="text" id="weight" />
+          <br />
+          <br />
+          <label for="sex">Sex: </label>
+          <br />
+          <input type="text" id="sex" />
+          <br />
+          <br />
+          <label for="id-number">ID Number: </label>
+          <br />
+          <input type="number" id="id-number" />
+          <br />
+          <br />
+          <label for="occupation">Occupation: </label>
+          <br />
+          <input type="text" id="occupation" />
+        </fieldset>
+      </section>
+      <br />
+      <section class="remarks">
+        <fieldset>
+          <legend>Remarks</legend>
+          <textarea placeholder="Remarks text" cols="70" rows="11"></textarea>
+        </fieldset>
+      </section>
+      <br />
+      <section class="caution">
+        <fieldset>
+          <legend>Caution</legend>
+          <textarea placeholder="Caution text" cols="70" rows="12"></textarea>
+        </fieldset>
+      </section>
+      <br />
+      <button type="reset">
+        <img
+          src="../images/undo-computer-icons-microsoft-word-button-computer-software-png-favpng-biFenWY8bvrALj78iDJA0GkwP.jpg"
+          alt="reset"
+        />Reset
+      </button>
+      <button type="submit">
+        <img src="../images/images.jpg" />
+        <a href="../posters/bart.html"> Create Poster </a>
+      </button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+.ul-one{
+    list-style-type: circle;
+}
+
+.ul-two{
+    list-style-type: square;
+}
+
+ol:first-of-type{
+    list-style-type: upper-alpha;
+}
+ol:last-of-type{
+    list-style-type: upper-roman;
+}
+
+.ul-three{
+    margin: 0 200px;
+    list-style-image: url(https://p.kindpng.com/picc/s/13-133410_coffee-icon-png-free-transparent-png.png);
+    width: 200px;
+}
+
+.ul-four{
+    width: 200px;
+    margin: 0 400px;
+    list-style-image: url(https://media.istockphoto.com/photos/red-ball-picture-id139972973?k=20&m=139972973&s=170667a&w=0&h=V4iFuw8VnUDnz7kFMuLIdOtV3GIKDfikMzgJK0EeJWg=) ;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+table{
+    margin: 0 auto;
+    padding: 10px 0;
+    width: 500px;
+}
+
+th{
+    background-color:red;
+    color: blueviolet;
+}
+
+th:hover{
+    background-color: yellow;
+}
+
+tr:nth-of-type(odd){
+    background-color: gray;
+}

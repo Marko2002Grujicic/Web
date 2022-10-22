@@ -1,0 +1,40 @@
+.one {
+    opacity: 50%;
+    color: darkturquoise;
+    background-color: red
+}
+.two{
+  color:  rgba(48,213,200, 50%);
+  background-color: teal;
+}
+
+.three{
+    color: #30D5C8;
+    background-color: black;
+}
+
+img{
+    display: block;
+    height: 100px;
+    width: 200px;
+}
+
+.tr-one{
+    background-color: aliceblue;
+}
+
+.tr-two{
+    background-color: hotpink;
+}
+
+.tr-three{
+    background-color: aquamarine;
+}
+
+.tr-four{
+    background-color: blanchedalmond;
+}
+
+.tr-five{
+    background-color: blueviolet;
+}
