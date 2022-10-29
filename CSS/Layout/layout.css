@@ -1,0 +1,31 @@
+.parent {
+    background-color: aqua;
+
+}
+
+h1{
+    background-color: orange;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#first-child {
+background-color: blueviolet;
+width: 300px;
+height: 300px;
+}
+
+#second-child {
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+}
+
+#second-child p {
+    position: relative;
+    width: 200px;
+    background-color: chartreuse;
+}
+
