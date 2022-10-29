@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        box-sizing: border-box;
+      }
+      .container {
+        border: thick solid teal;
+        height: 50vh;
+        padding: 1rem;
+        display: flex;
+        gap: 2rem;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .item {
+        background: orange;
+        border: thin solid rebeccapurple;
+        padding: 1rem;
+        width: 5rem;
+      }
+      .item1,
+      .item3 {
+        width: 3rem;
+      }
+      .item2 {
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item1">1</div>
+      <div class="item item2">2</div>
+      <div class="item item3">3</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Exercise</title>
+    <style>
+      body {
+        background-color: rgb(35, 35, 129);
+      }
+      .container {
+        height: 50vh;
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+        color: white;
+      }
+      .item {
+        min-height: 50px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+      }
+      .item1 {
+        background-color: orange;
+      }
+      .item2 {
+        background-color: rgb(255, 105, 59);
+      }
+      .item3 {
+        align-self: stretch;
+        background-color: rgb(209, 26, 26);
+        font-size: 50px;
+      }
+      .item4 {
+        background-color: silver;
+      }
+      .item5 {
+        background-color: gray;
+      }
+      h1 {
+        margin-bottom: 40px;
+        text-align: center;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>CSS Flexbox Cheatsheet</h1>
+    <div class="container">
+      <div class="item item1">1</div>
+      <div class="item item2">2</div>
+      <div class="item item3">3</div>
+      <div class="item item4">4</div>
+      <div class="item item5">5</div>
+    </div>
+  </body>
+</html>
