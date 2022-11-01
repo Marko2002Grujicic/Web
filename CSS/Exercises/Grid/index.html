@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .item {
+        background: orange;
+        border: thick solid rebeccapurple;
+        padding: 1rem;
+      }
+
+      .container {
+        border: thick solid hotpink;
+        display: grid;
+        /*grid-template-columns: 200px 1fr 1fr 1fr; isto sto i:*/
+        /* grid-template-columns: 200px repeat(2, 1fr) 50px; */
+        /* grid-template-columns: repeat(auto-fit, 200px); oredjuje svim kolonoma sirinu od 200px, korisno kada ne znamo koliki je ekran  */
+        /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+        /* grid-template-rows: 50px repeat(1, minmax(50px, 100px)); */
+        grid-template-columns: 200px 1fr;
+        grid-template-rows: 50px;
+        min-height: 90vh;
+      }
+      .item1 {
+        /* grid-column-start: 1;
+        grid-column-end: 3; je ista komanda kao i sledeca: */
+        /* grid-column: 1 / 3; */
+        /* grid-column: 1/-1; */
+        grid-column: 1/-1;
+      }
+      .item10 {
+        /* grid-column: 1/3;
+        grid-row: 5/7; */
+        grid-column: 1/-1;
+        height: 50px;
+        position: sticky;
+        bottom: 0;
+        left: 0;
+      }
+      .item2 {
+        /* grid-row: 2 / span 4; */
+      }
+      .item3 {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item1">Header</div>
+      <div class="item item2">2</div>
+      <div class="item item3">3</div>
+    </div>
+    <div class="item item10">10</div>
+  </body>
+</html>
