@@ -44,6 +44,8 @@ nav{
 
 .navigation li a{
     transition: all 0.3s ease;
+    text-decoration: none;
+    color: white;
 }
 
 
