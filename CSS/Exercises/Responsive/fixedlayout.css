@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 960px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size:  20px;
+}
+    
+h1{
+    font-size: 60px;
+}
+
+.image{
+    width: 200px;
+    margin: 0 20px 0 0;
+}
+
+.headline{
+    font-size:40px;
+}
+.content{
+  text-align: justify   ;  
+}
