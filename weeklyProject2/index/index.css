@@ -269,7 +269,7 @@ h5{
     width: 100%;
     display: grid;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 /* Mail us */
@@ -319,4 +319,3 @@ footer{
     display: flex;
     justify-content: center;
 }
-
