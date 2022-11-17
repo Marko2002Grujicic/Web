@@ -8,30 +8,51 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <header>
-      <!-- NAVIGATION AND TITLE -->
-      <nav>
-        <h1 id="title"><span class="orange">&nbsp;BUILD</span> ESTATE</h1>
-        <ul class="navigation">
-          <li><a href="#title">HOME</a></li>
-          <li><a href="#whoWeAre">ABOUT</a></li>
-          <li><a href="#whoWeAre">SERVICES</a></li>
-          <li><a href="#contact">CONTACT US</a></li>
-        </ul>
-      </nav>
-
-      <div class="emptyspace"></div>
-
-      <!-- CENTERED TEXT-->
-      <div class="center">
-        <h2 class="shape">WE SHAPE OUR BUILDINGS THEREAFTER THEY SHAPE US</h2>
-        <a class="readmore" href="#whoWeAre">Read More</a>
+    <div class="hero">
+      <div class="menu">
+        <a class="logo" href="#"><span>&nbsp;BUILD</span> ESTATE</a>
+        <nav class="nav">
+          <ul>
+            <li>
+              <a href="">HOME</a>
+            </li>
+            <li>
+              <a href="#who-we-are">ABOUT</a>
+            </li>
+            <li>
+              <a href="#what-people-says">SERVICES</a>
+            </li>
+            <li>
+              <a href="#contact-us">CONTACT US</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-    </header>
+      <header>
+        <div class="main-heading">
+          <h1>WE SHAPE OUR BUILDINGS THEREAFTER THEY SHAPE US</h1>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </header>
+    </div>
+    <!-- END .hero-->
 
     <!-- MAIN AREA-->
     <main>
+      <br />
+      <br />
+      <div class="subtitle">
+        <h3 id="whoWeAre">Who We Are</h3>
+      </div>
+
+      <div class="break-lines">
+        <div class="break-line"></div>
+        <div class="break-square"></div>
+        <div class="break-line"></div>
+      </div>
+
       <!--Who we are-->
+
       <div class="wrapper">
         <!-- LEFT -->
         <div class="left">
@@ -54,15 +75,6 @@
         </div>
 
         <!-- MIDDLE -->
-
-        <div class="middle">
-          <h3 id="whoWeAre">Who We Are</h3>
-          <div class="border">
-            <div class="line"></div>
-            <div class="square"></div>
-            <div class="line"></div>
-          </div>
-        </div>
         <div>
           <img class="item1" src="../images/about.jpg" />
         </div>
@@ -91,20 +103,22 @@
       </div>
 
       <!-- What people say-->
+      <div class="subtitle">
+        <h3>What People Say</h3>
+      </div>
+
+      <div class="break-lines">
+        <div class="break-line"></div>
+        <div class="break-square"></div>
+        <div class="break-line"></div>
+      </div>
       <div class="wrapper two">
         <!--Middle-->
-        <div class="middle">
-          <h3>What People Say</h3>
-          <div class="border">
-            <div class="line"></div>
-            <div class="square"></div>
-            <div class="line"></div>
-          </div>
-        </div>
+
         <div class="mid blue">
           <img class="review1" src="../images/t2.jpg" />
           <div class="Ratings-Name">
-            <label>JENNIFER LOPEZ</label>
+            <label>Jennifer Lopez</label>
             <br />
             <link
               rel="stylesheet"
@@ -117,7 +131,7 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star-half-o"></span>
           </div>
-          <p>
+          <p class="font">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
             dignissimos veritatis libero magnam ut provident hic! Impedit
             veritatis error inventore tempore, in delectus. Animi neque minus
@@ -142,7 +156,7 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star-half-o"></span>
           </div>
-          <p>
+          <p class="font">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
             dignissimos veritatis libero magnam ut provident hic! Impedit
             veritatis error inventore tempore, in delectus. Animi neque minus
@@ -150,7 +164,7 @@
           </p>
         </div>
         <!-- RIGHT-->
-        <div class="right blue">
+        <div class="right1 blue">
           <img class="review1" src="../images/t3.jpg" />
           <div class="Ratings-Name">
             <label>Selena Gomez</label>
@@ -166,7 +180,7 @@
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star-half-o"></span>
           </div>
-          <p>
+          <p class="font">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
             dignissimos veritatis libero magnam ut provident hic! Impedit
             veritatis error inventore tempore, in delectus. Animi neque minus
@@ -177,39 +191,47 @@
       <br />
       <br />
       <!-- Get In Touch With Us-->
-      <div class="wrapper">
-        <div class="middle">
-          <h3 id="contact">Get In Touch With Us</h3>
-          <div class="border">
-            <div class="line"></div>
-            <div class="square"></div>
-            <div class="line"></div>
-          </div>
+      <div class="subtitle">
+        <h3 id="contact">Get In Touch With Us</h3>
+        <div class="break-lines">
+          <div class="break-line"></div>
+          <div class="break-square"></div>
+          <div class="break-line"></div>
         </div>
       </div>
+
       <br />
       <br />
       <!-- Contact-->
       <div class="container">
         <div class="contact">
           <h5>CONTACT US</h5>
+          <br />
           <p>
-            <img src="../images/phone.png" class="icon" /> +0(12) 000 123 3120
+            <img src="../images/phone.png" class="icon phone" /> +0(12) 000 123
+            3120
           </p>
-          <p><img src="../images/email.jpg" class="icon" /> mail@example.com</p>
+          <br />
+          <p>
+            <img src="../images/email.jpg" class="icon at" /> mail@example.com
+          </p>
         </div>
 
         <div class="connect">
           <h5>CONNECT US</h5>
           <br />
-          <img src="../images/facebook.ico" class="icon secondRow" />
-          <img src="../images/twitter.png" class="icon secondRow" />
-          <img src="../images/insta.png" class="icon secondRow" />
-          <img src="../images/linkedin.png" class="icon secondRow" />
+          <br />
+          <p>
+            <img src="../images/facebook.ico" class="icon secondRow" />
+            <img src="../images/twitter.png" class="icon secondRow" />
+            <img src="../images/insta.png" class="icon secondRow" />
+            <img src="../images/linkedin.png" class="icon secondRow" />
+          </p>
         </div>
 
         <div class="address">
           <h5>ADDRESS</h5>
+          <br />
           <br />
           <p>1680 Richmond St, Corner in, ON N58 3d7, USA</p>
         </div>
@@ -233,14 +255,12 @@
         </div>
       </div>
       <!-- Mail Us -->
-      <div class="wrapper">
-        <div class="middle">
-          <h3>Mail Us</h3>
-          <div class="border">
-            <div class="line"></div>
-            <div class="square"></div>
-            <div class="line"></div>
-          </div>
+      <div class="subtitle">
+        <h3>Mail Us</h3>
+        <div class="break-lines">
+          <div class="break-line"></div>
+          <div class="break-square"></div>
+          <div class="break-line"></div>
         </div>
       </div>
       <br />
@@ -250,7 +270,6 @@
           <input type="text" id="name" placeholder="   Name" />
           <input type="email" id="email" placeholder="  Email" />
           <input type="phone" id="phone" placeholder="  Telephone" />
-          <br />
 
           <textarea id="message" placeholder="  Message"></textarea>
           <button type="submit">Submit</button>
@@ -259,20 +278,29 @@
         <br />
       </div>
     </main>
+
     <footer>
-      <div class="footer">
-        <ul class="navigation">
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Stats</li>
-          <li>Agents</li>
-          <li>Testimonials</li>
-        </ul>
-      </div>
-      <br />
-      <br />
-      <p class="foot">&copy;2017 Build Estate. All Rights Reserved;</p>
+      <ul class="footer-links">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#who-we-are">About</a>
+        </li>
+        <li>
+          <a href="#what-people-says">Services</a>
+        </li>
+        <li>
+          <a href="#what-people-says">Stats</a>
+        </li>
+        <li>
+          <a href="#what-people-says">Agents</a>
+        </li>
+        <li>
+          <a href="#what-people-says">Testimonials</a>
+        </li>
+      </ul>
+      <p>&copy; 2022 Build Estate. All Rights Reserved</p>
     </footer>
   </body>
 </html>
