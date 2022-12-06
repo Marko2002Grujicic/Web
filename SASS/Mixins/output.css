@@ -1,0 +1,10 @@
+div {
+  -webkit-box-shadow: 10px 10px 5px 0px black;
+  -moz-box-shadow: 10px 10px 5px 0px black;
+  box-shadow: 10px 10px 5px 0px black;
+  height: 200px; }
+
+h2, p {
+  text-shadow: 44px 15px 3px #969696; }
+
+/*# sourceMappingURL=output.css.map */

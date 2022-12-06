@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid royalblue;
+  }
+
+@function calculateTableDimensions($width, $columns) {
+    $columnWidth: $width / $columns;
+    @return $columnWidth;
+}
+
+td {
+    width: calculateTableDimensions(600px, 3);
+    height: calculateTableDimensions(300px, 3);
+}

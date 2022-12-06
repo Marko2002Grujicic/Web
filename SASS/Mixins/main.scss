@@ -1,0 +1,41 @@
+@mixin normalizer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin reset-list {
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+@mixin horizontal-list {
+    @include reset-list();
+
+    li{
+        display: inline-block;
+        margin: {
+            left: -2px;
+            right: 2em;
+        }
+    }
+    nav ul {
+        @include horizontal-list();
+    }
+}
+
+@mixin text-shadow {
+    text-shadow: 44px 15px 3px rgba(150, 150, 150, 1);
+}
+@mixin box-shadow {
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,1);
+}
+
+div{
+    @include box-shadow() ;
+    height: 200px;
+}
+h2, p{
+    @include text-shadow()
+}

@@ -1,0 +1,27 @@
+.container{
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+ul{
+    li{
+        a{
+            text-decoration: none;
+        }
+        a:active{
+            background-color: yellow;
+        }
+        a:visited{
+            background-color:orange;
+        }
+        a:link{
+            background-color: green;
+        }
+        a.important{
+            font-weight: bold;
+        }
+        
+    }
+}
