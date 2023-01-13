@@ -1,0 +1,25 @@
+.background-color-all {
+  background-color: palevioletred;
+}
+.secondList {
+  background-color: goldenrod;
+}
+.thirdList {
+  background-color: cyan;
+}
+.color-list {
+  background-color: red;
+  border: 1px solid green;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.active {
+  background-color: red;
+}
+
+#form,
+input {
+  padding: 20px;
+  margin: 10px auto;
+}
